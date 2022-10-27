@@ -1,0 +1,33 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+}
+
+.buttons-header{
+ margin-left: 1000px;
+}
+
+.instagram{
+margin: 15px;
+margin-top: 10px;
+
+}
+
+
+.body2{
+
+width: 400px;
+height: 650px;
+margin-top: 30px;
+}
+
+.titulos{
+    display: inline;
+    display: flex;
+   
+}
+.fecha{
+    margin-left: 250px;
+    margin-top: 15px;
+}

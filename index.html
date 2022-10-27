@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/69ab332209.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <title>bootstrap</title>
+</head>
+<body>
+
+     <div class=" header d-flex p-2"> <!--header -->
+    <i class="fa-brands fa-instagram fa-2x instagram" ></i>
+    <img src="images/instagram_wordmark_logo_icon_169660.png">
+
+    <div class="buttons-header d-flex justify-content-end">
+    <button class="btn btn-success" data-bs-toggle="modal"data-bs-target="#contenedor-modal">Create a new post</button>
+    <!--modal-->
+    <div class="modal" tabindex="-1" id="contenedor-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Create a new post</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" >
+              <p>Add the caption of your post here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--cierre modal-->
+
+      
+<!--dropdown-->
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <li class="nav-item dropdown">
+                <button type="button" class="btn btn-secondary ">
+                <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" type="button" class="btn btn-secondary" role="button" aria-expanded="false"><i class="fa-solid fa-gear"></i></a>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Accsesibility</a></li>
+                  <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Log out</a></li>
+                </button>
+                </ul>
+                
+                
+    </ul>
+</div>
+</div>
+    <!--Fin del heather-->
+<!--transicion-->
+<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-table-cells fa-2x"></i></button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-stop fa-2x"></i></button>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <img src="/images/perrito1.jpg" alt="perrito1" width="400px" height="400" > 
+        </div>
+        <div class="col">
+          <img src="/images/perrito2.jpg" alt="perrito2" width="400px" height="400px"> 
+        </div>
+        <div class="col">
+          <img src="/images/perrito3.jpg" alt="perrito3" width="400px" height="400px"> 
+        </div>
+     </div>
+    </div>
+  
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <img src="/images/perrito4.jpg" alt="perrito4" width="400px" height="400" > 
+      </div>
+      <div class="col">
+        <img src="/images/perrito5.jpg" alt="perrito5" width="400px" height="400px"> 
+      </div>
+      <div class="col">
+        <img src="/images/perrito6.jpg" alt="perrito6" width="400px" height="400px"> 
+      </div>
+   </div>
+  </div>
+
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <img src="/images/perrito7.jpg" alt="perrito7" width="400px" height="400" > 
+    </div>
+    <div class="col">
+      <img src="/images/perrito8.jpg" alt="perrito8" width="400px" height="400px"> 
+    </div>
+    <div class="col">
+      <img src="/images/perrito9.jpg" alt="perrito9" width="400px" height="400px"> 
+    </div>
+ </div>
+</div>
+</div>
+
+  <!--inicio body dos-->
+  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+    <div class="body-two">
+      <div class="row justify-content-center">
+    <div class="col-12 col-md-3">
+    <div class="titulos">
+      <h2>perrito</h2>
+      <p class="fecha">25/10</p>
+    </div>
+  <img src="/images/perrito1.jpg" alt="perrito1" width="400px" height="400px" > 
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero aperiam explicabo
+       eos quis, ipsam fuga odio sequi mollitia repudiandae soluta nihil pariatur eum ex 
+       neque nobis ullam provident iure accusantium?</p>
+
+  </div>
+  </div>
+  
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-3">
+    <div class="titulos">
+      <h2>perrito </h2>
+      <p class="fecha">25/10</p>
+    </div>
+  <img src="/images/perrito2.jpg" alt="perrito2" width="400px" height="400px" > 
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero aperiam explicabo
+       eos quis, ipsam fuga odio sequi mollitia repudiandae soluta nihil pariatur eum ex 
+       neque nobis ullam provident iure accusantium?</p>
+
+  </div>
+  </div>
+  
+
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-3">
+    <div class="titulos">
+      <h2>perrito </h2>
+      <p class="fecha">25/10</p>
+    </div>
+  <img src="/images/perrito3.jpg" alt="perrito3" width="400px" height="400px" > 
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero aperiam explicabo
+       eos quis, ipsam fuga odio sequi mollitia repudiandae soluta nihil pariatur eum ex 
+       neque nobis ullam provident iure accusantium?</p>
+
+  </div>
+  </div>
+  
+</div>
+      
+
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
