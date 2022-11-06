@@ -1,17 +1,22 @@
 body{
 margin: 0;
 padding: 0;
-box-sizing: border-box;    
+box-sizing: border-box;  
+
+}
+*{border:1px dashed red;
+min-height: 10px;
 }
 
-.buttons-header{
- margin-left: 1000px;
-}
+
 
 .instagram{
 margin: 15px;
 margin-top: 10px;
 
+}
+.navbar-brand{
+    margin-top: 40px;
 }
 
 
@@ -31,3 +36,5 @@ margin-top: 30px;
     margin-left: 250px;
     margin-top: 15px;
 }
+
+
