@@ -4,37 +4,10 @@ padding: 0;
 box-sizing: border-box;  
 
 }
-*{border:1px dashed red;
-min-height: 10px;
-}
 
-
-
-.instagram{
-margin: 15px;
-margin-top: 10px;
-
-}
-.navbar-brand{
-    margin-top: 40px;
-}
-
-
-.body2{
-
-width: 400px;
-height: 650px;
-margin-top: 30px;
-}
-
-.titulos{
-    display: inline;
-    display: flex;
-   
-}
 .fecha{
-    margin-left: 250px;
-    margin-top: 15px;
-}
 
+    margin: auto;
+    margin-left: 210px;
+}
 
